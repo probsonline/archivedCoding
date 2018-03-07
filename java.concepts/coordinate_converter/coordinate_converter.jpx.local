@@ -1,0 +1,23 @@
+build.menu.1[0]=com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make
+build.menu.2[0]=com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;rebuild
+classFilter.unittest.1[0]=junit.framework.*
+classFilter.unittest.2[0]=java.lang.reflect.Method
+classFilter.unittest.3[0]=com.borland.jbuilder.unittest.JBTestRunner
+classFilter.unittest.4[0]=sun.reflect.NativeMethodAccessorImpl
+classFilter.unittest.5[0]=sun.reflect.DelegatingMethodAccessorImpl
+content.layout.xml.[0]=<project-layout><tab_container selected_index="0"><tab node_name="TestConverter.java"/></tab_container></project-layout>
+debug.NoTracingClasses.1[0]=16 java.lang.Object1  1 -1
+debug.NoTracingClasses.2[0]=21 java.lang.ClassLoader1  1 -1
+debug.NoTracingClasses.3[0]=16 java.lang.String1  1 -1
+debug.SplitThreadsAndDataView[0]=0
+history.files.active[0]=TestConverter.java,F;1,2958
+history.files.open.1[0]=TestConverter.java,F;1,2958
+packagebrowser.lastClassName[0]=TestConverter
+sys.Author[0]=
+sys.DefaultPackage[0]=coordinate_converter
+sys.ReopenHistory.1[0]=TConverter.java
+sys.ReopenHistory.2[0]=Converter.java
+sys.ReopenHistory.3[0]=G%|/sourc/TConverter.java
+sys.ReopenHistory.4[0]=G%|/sourc/TestConverter.java
+sys.ReopenHistory.5[0]=G%|/sourc/Converter.java
+team.lastScanned[0]=1460308318015
