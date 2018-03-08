@@ -1,0 +1,8 @@
+bin\Debug\HiringTestMaker.exe
+bin\Debug\HiringTestMaker.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HiringTestMaker.HiringTestMaker.resources
+obj\Debug\HiringTestMaker.Properties.Resources.resources
+obj\Debug\HiringTestMaker.csproj.GenerateResource.Cache
+obj\Debug\HiringTestMaker.exe
+obj\Debug\HiringTestMaker.pdb

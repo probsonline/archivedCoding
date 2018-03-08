@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\testMySQL.testMySQL.resources
+obj\Debug\testMySQL.Properties.Resources.resources
+obj\Debug\testMySQL.csproj.GenerateResource.Cache
+bin\Debug\testMySQL.exe
+bin\Debug\testMySQL.pdb
+obj\Debug\testMySQL.exe
+obj\Debug\testMySQL.pdb

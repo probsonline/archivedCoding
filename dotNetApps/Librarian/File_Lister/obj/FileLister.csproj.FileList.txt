@@ -1,0 +1,16 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\FileLister.FileLister.resources
+obj\Release\FileLister.Properties.Resources.resources
+obj\Release\FileLister.csproj.GenerateResource.Cache
+bin\Release\FileLister.exe
+bin\Release\FileLister.pdb
+obj\Release\FileLister.exe
+obj\Release\FileLister.pdb
+bin\Debug\FileLister.exe
+bin\Debug\FileLister.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FileLister.FileLister.resources
+obj\Debug\FileLister.Properties.Resources.resources
+obj\Debug\FileLister.csproj.GenerateResource.Cache
+obj\Debug\FileLister.exe
+obj\Debug\FileLister.pdb

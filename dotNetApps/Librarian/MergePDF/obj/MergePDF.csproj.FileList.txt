@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MergePDF.FormMain.resources
+obj\Debug\MergePDF.Properties.Resources.resources
+obj\Debug\MergePDF.csproj.GenerateResource.Cache
+bin\Debug\MergePDF.exe
+bin\Debug\MergePDF.pdb
+bin\Debug\IKVM.GNU.Classpath.dll
+bin\Debug\PDFBox-0.7.2.dll
+obj\Debug\MergePDF.exe
+obj\Debug\MergePDF.pdb

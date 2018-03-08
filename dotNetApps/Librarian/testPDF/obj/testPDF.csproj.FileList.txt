@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\testPDF.exe
+bin\Debug\testPDF.pdb
+bin\Debug\IKVM.GNU.Classpath.dll
+obj\Debug\testPDF.exe
+obj\Debug\testPDF.pdb
+bin\Debug\PDFBox-0.7.2.dll
+bin\Debug\IKVM.Runtime.dll

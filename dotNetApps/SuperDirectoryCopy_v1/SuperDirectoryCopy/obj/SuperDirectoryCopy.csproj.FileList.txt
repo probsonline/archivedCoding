@@ -1,0 +1,16 @@
+bin\Debug\SuperDirectoryCopy.exe
+bin\Debug\SuperDirectoryCopy.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SuperDirectoryCopy.SuperDirectyCopy.resources
+obj\Debug\SuperDirectoryCopy.Properties.Resources.resources
+obj\Debug\SuperDirectoryCopy.csproj.GenerateResource.Cache
+obj\Debug\SuperDirectoryCopy.exe
+obj\Debug\SuperDirectoryCopy.pdb
+bin\Release\SuperDirectoryCopy.exe
+bin\Release\SuperDirectoryCopy.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SuperDirectoryCopy.SuperDirectyCopy.resources
+obj\Release\SuperDirectoryCopy.Properties.Resources.resources
+obj\Release\SuperDirectoryCopy.csproj.GenerateResource.Cache
+obj\Release\SuperDirectoryCopy.exe
+obj\Release\SuperDirectoryCopy.pdb

@@ -1,0 +1,11 @@
+bin\Debug\PDFManager.exe
+bin\Debug\PDFManager.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PDFManager.Properties.Resources.resources
+obj\Debug\PDFManager.csproj.GenerateResource.Cache
+obj\Debug\PDFManager.exe
+obj\Debug\PDFManager.pdb
+bin\Debug\IKVM.GNU.Classpath.dll
+bin\Debug\PDFBox-0.7.2.dll
+obj\Debug\PDFManager.PDFInfoManager.resources
+bin\Debug\IKVM.Runtime.dll
