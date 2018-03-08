@@ -1,0 +1,126 @@
+//-----------------------------------------------------------------
+/* EXITER.C: This program prompts the user for a yes
+ * or no and returns an exit code of 1 if the
+ * user answers Y or y; otherwise it returns 0. The
+ * error code could be tested in a batch file.
+ */
+
+#include <conio.h>
+#include <stdlib.h>
+
+void main( void )
+{
+   int ch;
+
+   _cputs( "Yes or no? " );
+   ch = _getch();
+   _cputs( "\r\n" );
+   if( toupper( ch ) == 'Y' )
+      exit( 1 );
+   else
+      exit( 0 );
+}
+//-----------------------------------------------------------------
+
+/* SYSTEM.C: This program uses
+ * system to TYPE its source file.
+ */
+
+#include <process.h>
+
+void main( void )
+{
+   system( "type system.c" );
+}
+
+Output
+/* SYSTEM.C: This program uses
+ * system to TYPE its source file.
+ */
+#include <process.h>
+void main( void )
+{
+   system( "type system.c" );
+}
+
+//-----------------------------------------------------------------
+/* EXEC.C illustrates the different versions of exec including:
+ *      _execl          _execle          _execlp          _execlpe
+ *      _execv          _execve          _execvp          _execvpe
+ *
+ * Although EXEC.C can exec any program, you can verify how 
+ * different versions handle arguments and environment by 
+ * compiling and specifying the sample program ARGS.C. See 
+ * SPAWN.C for examples of the similar spawn functions.
+ */
+
+#include <stdio.h>
+#include <conio.h>
+#include <process.h>
+
+char *my_env[] =                /* Environment for exec?e */
+{
+   "THIS=environment will be",
+   "PASSED=to new process by",
+   "the EXEC=functions",
+   NULL
+};
+
+void main()
+{
+   char *args[4], prog[80];
+   int ch;
+
+   printf( "Enter name of program to exec: " );
+   gets( prog );
+   printf( " 1. _execl  2. _execle  3. _execlp  4. _execlpe\n" );
+   printf( " 5. _execv  6. _execve  7. _execvp  8. _execvpe\n" );
+   printf( "Type a number from 1 to 8 (or 0 to quit): " );
+   ch = _getche();
+   if( (ch < '1') || (ch > '8') )
+       exit( 1 );
+   printf( "\n\n" );
+
+   /* Arguments for _execv? */
+   args[0] = prog;
+   args[1] = "exec??";
+   args[2] = "two";
+   args[3] = NULL;
+
+   switch( ch )
+   {
+   case '1':
+      _execl( prog, prog, "_execl", "two", NULL );
+      break;
+   case '2':
+      _execle( prog, prog, "_execle", "two", NULL, my_env );
+      break;
+   case '3':
+      _execlp( prog, prog, "_execlp", "two", NULL );
+      break;
+   case '4':
+      _execlpe( prog, prog, "_execlpe", "two", NULL, my_env );
+      break;
+   case '5':
+      _execv( prog, args );
+      break;
+   case '6':
+      _execve( prog, args, my_env );
+      break;
+   case '7':
+      _execvp( prog, args );
+      break;
+   case '8':
+      _execvpe( prog, args, my_env );
+      break;
+   default:
+      break;
+   }
+
+   /* This point is reached only if exec fails. */
+   printf( "\nProcess was not execed." );
+   exit( 0 );
+}
+//---------------------------------------------------------------
+
+system("calc");//process.h

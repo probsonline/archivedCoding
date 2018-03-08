@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: function_check - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/function_check.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\TestPrograms\C_tests\function_check\func.c"
+"D:\TestPrograms\C_tests\function_check\test.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP40.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/function_check.pdb" /debug /machine:I386 /out:"Debug/function_check.exe" /pdbtype:sept 
+.\Debug\func.obj
+.\Debug\test.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP40.tmp"
+<h3>Output Window</h3>
+Compiling...
+func.c
+D:\TestPrograms\C_tests\function_check\func.c(11) : error C2143: syntax error : missing ')' before '='
+D:\TestPrograms\C_tests\function_check\func.c(11) : error C2072: 'mul_2' : initialization of a function
+D:\TestPrograms\C_tests\function_check\func.c(11) : error C2059: syntax error : ')'
+D:\TestPrograms\C_tests\function_check\func.c(12) : error C2143: syntax error : missing ';' before '{'
+D:\TestPrograms\C_tests\function_check\func.c(12) : error C2449: found '{' at file scope (missing function header?)
+D:\TestPrograms\C_tests\function_check\func.c(14) : error C2059: syntax error : '}'
+test.c
+D:\TestPrograms\C_tests\function_check\test.c(12) : error C2198: 'mul' : too few actual parameters
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+function_check.exe - 7 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
